@@ -1,14 +1,15 @@
 function formValidation()
 {
-var uid = document.registration.userid;
-var passid = document.registration.passid;
-var uname = document.registration.username;
-var uadd = document.registration.address;
-var ustate = document.registration.state;
-var uzip = document.registration.zip;
-var uemail = document.registration.email;
-var umsex = document.registration.msex;
-var ufsex = document.registration.fsex; if(userid_validation(uid,5,12))
+const uid = document.registration.userid;
+const passid = document.registration.passid;
+const uname = document.registration.username;
+const uadd = document.registration.address;
+const ustate = document.registration.state;
+const uzip = document.registration.zip;
+const uemail = document.registration.email;
+const umsex = document.registration.msex;
+const ufsex = document.registration.fsex; 
+  if(userid_validation(uid,5,12))
 {
 if(passid_validation(passid,7,12))
 {
